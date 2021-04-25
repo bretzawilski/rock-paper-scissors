@@ -1,5 +1,5 @@
 Version 5
-[] The start button should start the game by being clicked
+[x] The start button should start the game by being clicked
 
 Version 4
 [x] The game should keep track of the player and computer score

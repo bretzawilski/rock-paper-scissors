@@ -26,9 +26,14 @@ function game() {
     }
 
     function playerChoice(playerParam) {
+      if (playerParam === undefined || playerParam === "" || playerParam === null){
+        alert("Invalid choice. Please try again.")
+        playerChoice(prompt('Rock, Paper, or Scissors?'));
+      }
       let selection = playerParam.toLowerCase()
-      if (selection != "rock" && selection != "paper" && selection != "scissors" && selection != undefined && selection != null) {
-        console.log("Invalid choice, please try again.")
+      if (selection != "rock" && selection != "paper" && selection != "scissors") {
+        alert("Invalid choice. Please try again.")
+        playerChoice(prompt('Rock, Paper, or Scissors?'));
       } else {
         return selection;
       }
