@@ -1,0 +1,5 @@
+Version 1
+
+[] Computer must be able to select rock, paper, or scissors randomly
+[] Function to assign computer to rock, paper or scissors
+[] RNG device needed
