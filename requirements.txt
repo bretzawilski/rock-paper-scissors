@@ -1,3 +1,11 @@
+Version 5
+[] The start button should start the game by being clicked
+
+Version 4
+[x] The game should keep track of the player and computer score
+[x] The game should go to best of 5 
+[x] The game should indicate who wins overall
+
 Version 3
 [x] Should prompt player for choice of rock, paper, or scissors.
 [x] Should compare playerSelection to computerSelection to determine outcome
