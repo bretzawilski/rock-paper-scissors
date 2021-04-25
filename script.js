@@ -85,5 +85,5 @@ function game() {
   }
 }
 
-
-game();
+let startGame = document.getElementById('start-button');
+startGame.addEventListener('click', game);
