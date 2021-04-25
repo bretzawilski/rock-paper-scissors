@@ -1,3 +1,7 @@
+Version 3
+[x] Should prompt player for choice of rock, paper, or scissors.
+[x] Should compare playerSelection to computerSelection to determine outcome
+
 Version 2
 [x] Player should be able to input choice of rock, paper, or scissors
 [x] Input should be case insensitive
