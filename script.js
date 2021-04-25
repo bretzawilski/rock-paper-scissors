@@ -1,6 +1,4 @@
-console.log("Testing");
-
-function computerPlay(){
+function computerPlay() {
   
   function getRandomIntInclusive(min, max) {
     min = Math.ceil(min);
@@ -12,7 +10,7 @@ function computerPlay(){
 
   if (computerChoice === 1) {
     return "Rock";
-  } else if (computerChoice ===2) {
+  } else if (computerChoice === 2) {
     return "Paper";
   } else {
     return "Scissors";
@@ -20,4 +18,13 @@ function computerPlay(){
 
 }
 
-console.log(computerPlay());
+function playerChoice(playerParam) {
+  let selection = playerParam.toLowerCase()
+  if (selection != "rock" && selection != "paper" && selection != "scissors") {
+    console.log("Invalid choice, please try again.")
+  } else {
+    return selection;
+  }
+}
+
+computerSelection = (computerPlay());

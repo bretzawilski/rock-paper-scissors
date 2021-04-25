@@ -1,5 +1,9 @@
-Version 1
+Version 2
+[x] Player should be able to input choice of rock, paper, or scissors
+[x] Input should be case insensitive
+[x] Function should exist to assign playerSelection
 
-[] Computer must be able to select rock, paper, or scissors randomly
-[] Function to assign computer to rock, paper or scissors
-[] RNG device needed
+Version 1
+[x] Computer should be able to select rock, paper, or scissors randomly
+[x] Function should assign computer to rock, paper or scissors
+[x] RNG device needed
