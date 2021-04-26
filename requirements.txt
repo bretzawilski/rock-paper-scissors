@@ -1,4 +1,4 @@
-Version
+Version 6
 [x] A function should log the player and computer scores
 
 Version 5
