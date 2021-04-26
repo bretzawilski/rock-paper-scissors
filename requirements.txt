@@ -1,3 +1,6 @@
+Version
+[x] A function should log the player and computer scores
+
 Version 5
 [x] The start button should start the game by being clicked
 
