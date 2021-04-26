@@ -1,3 +1,6 @@
+Version 7
+[] All major game functionality should be within modular functions
+
 Version 6
 [x] A function should log the player and computer scores
 
